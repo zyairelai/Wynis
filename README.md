@@ -1,4 +1,16 @@
 # Wynis
+- Remove the ASCII code for the following script to look more "professional"
+- https://raw.githubusercontent.com/zyairelai/Wynis/master/System%20Audit/WynisWIN2016-CISv1.0.ps1
+- To run the script above, must be running on a `cmd.exe` or `powershell.exe` with Administrator Privilege
+- Command to run the script:
+```
+C:\Users\Administrator\Desktop>powershell
+PS C:\Users\Administrator\Desktop> . .\WynisWIN2016-CISv1.0.ps1
+```
+- Depending on the host that run the script, the period will be vary.
+
+
+# Official README.md
 Just a powershell scripts for auditing security with BEST Practices Windows env
 You just need to run the script, it will create a directory named : AUDIT_CONF_%MACHINENAME_%DATE%
 
